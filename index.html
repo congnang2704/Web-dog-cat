@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>HappyTails - Đồ Ăn Cho Thú Cưng</title>
+  <meta name="title" content="HappyTails - Đồ Ăn Cho Thú Cưng">
+
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  
+ 
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #logo và menu của của hàng
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="index.html" class="logo">HappyTails</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Trang Chủ</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#shop" class="navbar-link" data-nav-link>Cửa Hàng</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#bosuutap" class="navbar-link" data-nav-link>Bộ Sưu Tập</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link" data-nav-link>Blogs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="lienhe.html" class="navbar-link" data-nav-link>Liên Hệ</a>
+          </li>
+
+        </ul>
+
+        <a href="dangnhap.html" class="navbar-action-btn">Đăng Nhập</a>
+      </nav>
+
+      <!-- tìm kiếm, đăng nhập và shop -->
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-label="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn user" aria-label="User">
+          <a href="dangnhap.html">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          </a>
+          
+        
+
+        </button>
+
+        <button class="action-btn" aria-label="cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+          <span class="btn-badge">0</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #câu cửa hiệu của khách
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/paner1.png')">
+        <div class="container">
+
+          <h2 class="h1 hero-title" >
+            <span class="span">Cửa hàng đồ dùng cho thú cưng</span>Pet Care 
+          </h2>
+
+          <p class="hero-text">Giảm giá tới 30% ngay hôm nay</p>
+
+          <a href="#shop" class="btn">Mua ngay</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #sản phẩm được tìm kiếm nhiều nhất
+      -->
+
+      <section class="section category" id="bosuutap" aria-label="category">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Sản phẩm  </span> Được tìm kiếm nhiều nhất
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <a href="./hienthithem/thucanchomeo.html"><img src="./assets/images/thucanchomeo/thucanchomeo.jpg" width="330" height="300" loading="lazy" alt="thucanchomeo"
+                    class="img-cover"></a>
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Thức ăn cho mèo</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <a href="./hienthithem/dochoichomeo.html"><img src="./assets/images/dochoichomeo/dochoichomeo11.jpg" width="330" height="300" loading="lazy" alt="dochoichomeo11"
+                    class="img-cover"></a>
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Đồ chơi cho mèo</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <a href="./hienthithem/thucanchocho.html"><img src="./assets/images/thucanchocho/thucanchocho1.jpg" width="330" height="300" loading="lazy" alt="thucanchocho1"
+                    class="img-cover"></a>
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Thức ăn cho chó</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <a href="./hienthithem/dochoichocho.html"><img src="./assets/images/dochoichocho/dochoichocho1.jpg" width="330" height="300" loading="lazy" alt="dochoichocho1"
+                    class="img-cover"></a>
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Đồ chơi cho chó</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <a href="./hienthithem/dodungkhac.html"><img src="./assets/images/dodungkhac/dodungkhac1.jpg" width="330" height="300" loading="lazy"
+                    alt="dodungkhac1" class="img-cover"></a>
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Đồ dùng khác</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #Sản phẩm bán chạy nhất
+      -->
+
+      <section class="section product" id="shop" aria-label="product">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Sản phẩm </span> bán chạy nhất
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/thucanchomeo/thucanchomeo4.jpg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover ">
+                 
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(110)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Thức ăn cho mèo triệt sản Royal Canin Sterilised 37 (2kg)</a>
+                  </h3>
+
+                  <data class="card-price" value="450.000">450.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/thucanchomeo/thucanchomeo5.jpg" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover ">
+                  
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper ">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+                    
+                    <span class="span">(125)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pate cho mèo trưởng thành Whiskas 85g – Vị cá biển – Mỹ</a>
+                  </h3>
+
+                  <data class="card-price" value="40.000">40.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/dochoichomeo/dochoichomeo3.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover ">
+                  
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper ">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(101)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Cần câu AFP Dreams Catcher Ranga</a>
+                  </h3>
+
+                  <data class="card-price" value="150.000">150.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/thucanchocho/thucanchocho3.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover ">
+                 
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(117)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Thức ăn đa đạm cho chó Natural Core S1 1kg – gấp đôi thịt</a>
+                  </h3>
+
+                  <data class="card-price" value="180.000">180.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/thucanchocho/thucanchocho9.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover ">
+                  
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper ">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(220)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Sữa cho chó con Royal Canin Baby Dog Milk (400g)</a>
+                  </h3>
+
+                  <data class="card-price" value="660.000">660.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/dochoichocho/dochoichocho3.jpg" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover">
+                  
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper ">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(288)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Đồ chơi dây thừng Mon Ami Toy Rope</a>
+                  </h3>
+
+                  <data class="card-price" value="20.000">20.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/dodungkhac/dodungkhac6.jpg" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover ">
+                  
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper ">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(99)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Thảm đa năng Mon Ami Beddy</a>
+                  </h3>
+
+                  <data class="card-price" value="230.000">230.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/dodungkhac/dodungkhac7.jpg " width="360" height="360" loading="lazy"
+                    alt="Etiam commodo leo sed" class="img-cover ">
+                  
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper ">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(87)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Lồng vận chuyển Ferplast Atlas Deluxe Open (M)</a>
+                  </h3>
+
+                  <data class="card-price" value="1.300.000">1.300.000VNĐ</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Thể lệ mua hàng của shop
+      -->
+
+      <section class="section service" aria-label="service">
+        <div class="container">
+
+          <img src="./assets/images/service-image.png" width="122" height="136" loading="lazy" alt="" class="img">
+
+          <h2 class="h2 section-title">
+            <span class="span">Thú cưng của bạn cần gì,</span> Chúng tôi đều có.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">Giao hàng miễn phí </h3>
+
+                <p class="card-text">
+                  Đặt hàng trước 14h để được giao hàng miễn phí 
+                  cho các đơn hàng từ 150.000VNĐ trở lên ngay hôm nay.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">7 Ngày Đổi Trả</h3>
+
+                <p class="card-text">
+                  Giảm 30% cho đơn hàng đầu tiên của bạn cộng với 5% cho tất cả các đơn hàng trong tương lai.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">Thanh toán bảo mật</h3>
+
+                <p class="card-text">
+                  Giảm 25% cho đơn hàng trực tuyến trị giá 500.000VNĐ của bạn. Có sẵn tại hầu hết các địa điểm.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">Hỗ trợ 24/7</h3>
+
+                <p class="card-text">
+                  Mua sắm trực tuyến để nhận các đơn hàng trên 150.000VNĐ được vận chuyển nhanh chóng và miễn phí.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+      <section class="cta has-bg-image" aria-label="cta" style="background-image: url('./assets/images/paner2.png')">
+        <div class="container">
+
+          <figure class="cta-banner">
+          </figure>
+
+          <div class="cta-content" id="blog">
+
+            <img src="./assets/images/Pastel_Cute_Pet_Care_Logo-removebg-preview.png" width="120" height="35" loading="lazy" alt="taste guarantee"
+              class="img">
+
+           <h3>Chào mừng bạn đến với HappyTails!</h3>
+
+            <p class="section-text">
+
+              HappyTails.com là một blog dành cho những người yêu thú cưng. <br>
+              
+              Tại đây, bạn sẽ tìm thấy những điều cần biết về cách chọn lựa thức ăn phù hợp, cách nuôi dưỡng, huấn luyện boss. <br>
+              
+              Hãy tham gia cùng HappyTails để cùng tạo ra một môi trường sống tốt đẹp hơn cho thú cưng của mình nhé!
+              
+            </p>
+
+            <a href="blog.html" class="btn">Tìm hiểu thêm</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Thương hiệu nổi tiếng nhất
+      -->
+
+      <section class="section brand" aria-label="brand">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Thương hiệu</span> phổ biến nhất 
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/1.png" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/2.png" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/3.png" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/4.png" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/5.png" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+<!-- Cuối trang của bài -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+
+    <div class="footer-top section" id="lienhe">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">HappyTails</a>
+
+          <p class="footer-text">
+            Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi tại: <a href="mailto:happytails@gmail.com"
+              class="link">happytails@gmail.com</a>
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+                130/30 Trần Đại Nghĩa
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+84823184076" class="contact-link">(+84)823184076</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/dxx.03" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Tập thể</p>
+          </li>
+
+          
+
+          <li>
+            <a href="#" class="footer-link">Về chúng tôi</a>
+          </li>
+
+          <li>
+            <a href="lienhe.html" class="footer-link">Liên hệ với chúng tôi</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Những câu hỏi thường gặp</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nhà Cung Cấp</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Chương trình liên kết</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Thông tin</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cửa hàng trực tuyến</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Chính sách bảo mật</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Chính sách bảo hành và đổi trả</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Chính sách vận chuyển</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Điều khoản dịch vụ</a>
+          </li>
+
+          
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Các dịch vụ</p>
+          </li>
+
+
+          <li>
+            <a href="#" class="footer-link">Huấn luyện chó</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dịch vụ thú y</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Bảo hiểm HappyTails</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nhận nuôi thú cưng</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Trung tâm tài nguyên</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 @ ♥ by <a href="#" class="copyright-link">TrinhDoan</a>
+        </p>
+
+        
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <script src="./assets/js/script.js" defer></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

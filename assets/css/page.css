@@ -1,0 +1,314 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+body{
+	background: rgb(255, 255, 255);
+}
+.stikey{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	left:0;
+	top: 5px;
+}
+
+
+.btn{
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	backdrop-filter: blur(30px);
+	letter-spacing: 2px;
+	background: rgba(129, 129, 129, 0.223);
+	margin: 0px 15px 50px 20px;
+	padding: 12px 35px;
+	border-radius: 50px;
+	transition: .15 ease;
+	border: 2px solid teal;
+}
+.btn-primary:hover{
+	background: teal;
+	color: white;
+}
+.user select{
+	border: none;
+	width: 50px;
+	height: auto;
+	color: white;
+	background: rgba(0, 0, 0, 0.431);
+}
+.line4{
+	border-left: 1px solid rgba(255, 255, 255, 0.45);
+	margin: 5px;
+	width: 0px;
+}
+.user i{
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 0px 14px;
+}
+.page-detail-banner{
+	width: 350px;
+	position: relative;
+  	overflow: hidden;
+ 	left: 40px;
+ 	top: 160px;
+ 	border-radius: 10px;
+ 	border: 1px solid;
+}
+.page-detail .container .page-detail-banner img{
+	width: 350px;
+	height: 450px;
+	object-fit: cover;
+}
+.play-btn{
+	position: absolute;
+	inset: 0;
+	place-items: center;
+	font-size: 120px;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+}
+.play-btn:hover {
+ 	background: rgba(0, 0, 0, 0.25); 
+}
+.page-detail-content{
+	position: relative;
+	top: -280px;
+	left: 450px;
+	width: 700px;
+}
+.page-detail-content .detail-subtitle{
+	font-size: 30px;
+	color: teal;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+.page-detail-content .detail-title{
+	color: white;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.page-detail-content .badge-wrapper .badge{
+	float: left;
+	font-weight: 700;
+	font-size: 14px;
+}
+.page-detail-content .badge-wrapper .badge-fill{
+	width: 55px;
+	height: 25px;
+	border: 3px solid white;
+	text-align: center;
+	background: white;
+	color: black;	
+}
+.page-detail-content .badge-wrapper .badge-outline{
+	width: 40px;
+	height: 25px;
+	border: 3px solid white;
+	text-align: center;
+	background: rgba(0, 0, 0, 0);
+	margin-left: 10px;
+	color: teal;
+}
+.page-detail-content .meta-wrapper .ganre-wrapper a{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	margin-left: 50px;
+	margin-right: -10px;
+}
+.page-detail-content .meta-wrapper .date-time .calendar1{
+	position: relative;
+	top: -20px;
+	left: 450px;
+	color: white;
+}
+.page-detail-content .meta-wrapper .date-time .calendar1 i{
+	color: teal;
+}
+.page-detail-content .meta-wrapper .date-time .calendar2{
+	position: relative;
+	top: -38px;
+	left: 630px;
+	color: white;
+}
+.page-detail-content .meta-wrapper .date-time .calendar2 i{
+	color: teal;
+}
+.page-detail-content p{
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: -10px;
+}
+.page-detail-content .star{
+	color: yellow;
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+}
+.details-actions {
+	display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+  max-width: 460px;
+  background: rgb(36, 44, 56);
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 4px;
+  margin-top: 40px;
+  width: 600px;
+  height: 100px;
+}
+.btn1{
+	color: white;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	backdrop-filter: blur(30px);
+	letter-spacing: 2px;
+	background: rgba(129, 129, 129, 0.223);
+	margin: 0px 15px 50px 20px;
+	padding: 12px 15px;
+	border-radius: 50px;
+	transition: .15 ease;
+	border: 2px solid teal;
+	position: relative;
+	top: -25px;
+	left: 120px;
+
+}
+.btn-primary1:hover{
+	background: teal;
+	color: white;
+}
+.details-actions .share i {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 19px;
+  left: -50px;
+
+}
+.details-actions .share{
+	background: rgba(0, 0, 0, 0);
+	border: none;
+}
+.details-actions .share span {
+  color: rgb(227, 222, 222);
+  font-size: 15px;
+  transition: 0.15s ease;
+  position: relative;
+  top: 40px;
+  left: -83px;
+}
+.details-actions .share span:hover{
+	color: teal;
+	cursor: pointer;
+}
+.details-actions .title-wrapper .title{
+	font-size: 18px;
+	font-weight: bolder;
+	color: white;
+	position: relative;
+	top: 30px;
+	left: -90px;
+}
+.details-actions .title-wrapper .text{
+	position: relative;
+	top: 45px;
+	left: -100px;
+}
+.download-btn i{
+	color: white;
+	font-size: 30px;
+	position: relative;
+	transform: rotate(-90deg);
+	left: -5px;
+	top: -4px;
+}
+
+.tv-series{
+	position: absolute;
+	height: 800px;
+	width: 100%;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+.section-subtitle {
+  color: rgb(140, 14, 14);
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 500;
+}
+
+.section-title {
+ text-align: center; 
+ color: rgb(0, 0, 0);
+ font-size: 30px;
+}
+.page-list{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+.page-card img{
+	width: 270px;
+	height: 300px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}	
+.page-card .title-wrapper a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	position: relative;
+	left: 20px;
+	top: 20px;
+	padding: 10px 10px;
+}
+
+.card-gia .gia{
+	
+	width: 200px;
+	height: 40px;
+	color: rgb(255, 255, 255);
+	border: 4px solid rgb(255, 0, 0);
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	font-size: 23px;
+}
+
+
+.card-meta .badge{
+	
+	width: 100px;
+	height: 30px;
+	color: black;
+	border: 4px solid rgb(255, 0, 0);
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	font-size: 13px;
+}
+
+.footer{
+	margin-top: 800px;
+}
